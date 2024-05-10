@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+    <title>Cheat Sheet Codecademy Challenge Project</title>
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="top">&lt; HTML Table and CSS Reference: CheatSheet &gt;</h1>
+        <nav>
+            <ul>
+                <li><a href="#table"><span>&nbsp;&lt;</span> Table Tags <span>&gt;&nbsp;</span></a></li>
+                <li><a href="#tb__attributes"><span>&nbsp;&lt;</span> Table Attributes <span>&gt;&nbsp;</span></a></li>
+                <li><a href="#css__selectors"><span>&nbsp;&lcub;</span> CSS selectors and specificity <span>&rcub;&nbsp;</span></a></li>
+                <li><a href="#css_properties"><span>&nbsp;&lcub;</span> Common CSS Properties <span>&rcub;&nbsp;</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="title__container">
+                <span><a class="nav__buttons" href="#css_properties">&lt;&nbsp;Go-Down&nbsp;&rcub;</a></span>
+                <h2 id="table" class="html__style nav__title__html__tb">Table Tags</h2>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span>&lt;table&gt;</span></td>
+                        <td>Table</td>
+                        <td>The wrapper element for all HTML tables.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;thead&gt;</span></td>
+                        <td>Table Head</td>
+                        <td>The set of rows defining the column headers in a table.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;tbody&gt;</span></td>
+                        <td>Table Body</td>
+                        <td>The set of rows containing actual table data.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;tr&gt;</span></td>
+                        <td>Table Row</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;td&gt;</span></td>
+                        <td>Table Data</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;tfoot&gt;</span></td>
+                        <td>Table Foot</td>
+                        <td>The set of rows defining the footer in a table.</td>
+                    </tr>
+                    <tr>
+                        <td><span>&lt;caption&gt;</span></td>
+                        <td>Caption</td>
+                        <td>Specifies the caption (or title) of a table.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <div class="title__container">
+                <span><a class="nav__buttons" href="#">&lt;&nbsp;Top&nbsp;/&gt;</a></span>
+                <span><a class="nav__buttons" href="#css_properties">&lcub;&nbsp;Down&nbsp;&rcub;</a></span>
+                <h2 id="tb__attributes" class="html__style nav__title__html__tb">Table Attributes</h2>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span>colspan</span></td>
+                        <td>Column Span</td>
+                        <td>Defines how many columns a td element should span.</td>
+                    </tr>
+                    <tr>
+                        <td><span>rowspan</span></td>
+                        <td>Row Span</td>
+                        <td>Defines how many rows a td element should span.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <div class="title__container">
+                <span><a class="nav__buttons" href="#">&lt;&nbsp;Top&nbsp;/&gt;</a></span>
+                <span><a class="nav__buttons" href="#css_properties">&lcub;&nbsp;Down&nbsp;&rcub;</a></span>
+                <h2 id="css__selectors" class="css__style nav__title__css__tb">CSS selectors and specificity</h2>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>CSS Selector</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span>Element Selector</span></td>
+                        <td>HTML elements</td>
+                        <td><br>Selects HTML elements based on their element name (e.g., &ltp&gt selects all paragraphs). 
+                            <p>CSS e.g.:</p><br>
+
+                            <p>&nbsp;p&nbsp;&lcub;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-align:&nbsp;center;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color:&nbsp;red;</p>
+                            <p>&nbsp;&nbsp;&rcub;</p><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span>#id</span></td>
+                        <td>ID Selector</td>
+                        <td><br>Selects a specific element based on its unique id attribute.
+                            <p>CSS e.g.:</p><br>
+
+                            <p>&nbsp;#para1&nbsp;&lcub;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-align:&nbsp;center;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color:&nbsp;red;</p>
+                            <p>&nbsp;&nbsp;&rcub;</p><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span>.class</span></td>
+                        <td>Class Selector</td>
+                        <td><br>Selects elements with a specific class attribute.
+                            <p>CSS e.g.:</p><br>
+
+                            <p>&nbsp;.center&nbsp;&lcub;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-align:&nbsp;center;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color:&nbsp;red;</p>
+                            <p>&nbsp;&nbsp;&rcub;</p><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span>&nbsp;*&nbsp;</span></td>
+                        <td>Universal Selector</td>
+                        <td><br>Selects all HTML elements on the page.
+                            <p>CSS e.g.:</p><br>
+
+                            <p>&nbsp;*&nbsp;&lcub;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-align:&nbsp;center;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color:&nbsp;red;</p>
+                            <p>&nbsp;&nbsp;&rcub;</p><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span>Grouping Selector</span></td>
+                        <td>Grouping Selector</td>
+                        <td><br>Combines multiple selectors to apply the same style definitions.
+                            <p>CSS e.g.:</p><br>
+                            <p>&nbsp;h1,&nbsp;h2,&nbsp;p&nbsp;&lcub;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-align:&nbsp;center;</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color:&nbsp;red;</p>
+                            <p>&nbsp;&nbsp;&rcub;</p><br>
+                            <p>All &lt;h1&gt;, &lt;h2&gt;, and &lt;p&gt; elements share the same styles.</p><br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <div class="title__container">
+                <span><a class="nav__buttons" href="#top">&lcub;&nbsp;Back-To-Top&nbsp;/&gt;</a></span>
+                <h2 id="css_properties" class="css__style nav__title__css__tb">Common CSS Properties</h2>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span>color</span></td>
+                        <td>Color</td>
+                        <td>Sets the text color for an element.</td>
+                    </tr>
+                    <tr>
+                        <td><span>border</span></td>
+                        <td>Border</td>
+                        <td>Defines the border around an element.</td>
+                    </tr>
+                    <tr>
+                        <td><span>margin</span></td>
+                        <td>Margin</td>
+                        <td>Controls the spacing outside an element.</td>
+                    </tr>
+                    <tr>
+                        <td><span>background-color</span></td>
+                        <td>Background Color</td>
+                        <td>Specifies the background color of an element.</td>
+                    </tr>
+                    <tr>
+                        <td><span>padding</span></td>
+                        <td>Padding</td>
+                        <td>Determines the spacing inside an element.</td>
+                    </tr>
+                    <tr>
+                        <td><span>width and height</span></td>
+                        <td>Width and Height</td>
+                        <td>Set the dimensions of an element.</td>
+                    </tr>
+                    <tr>
+                        <td><span>position</span></td>
+                        <td>Position</td>
+                        <td>Determines the positioning of an element.</td>
+                    </tr>
+                    <tr>
+                        <td><span>text-align</span></td>
+                        <td>Text Align</td>
+                        <td>Aligns the text content within an element.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><span>Remember that this list is not exhaustive, but it covers some of the most commonly used CSS properties.</span></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p><strong>&#128123; Developed by Fabio Moraes Santos</strong></p>
+    </footer>
+</body>
+</html>

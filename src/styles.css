@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 10px auto 20px auto ;
+    color: lightsteelblue;
+    border-bottom: 5px deepskyblue double;
+    border-radius: 10px;
+    width: 500px;
+}
+
+h2 {
+    color: deepskyblue;
+    margin: 40px auto 20px auto;
+    border-bottom: 3px double deepskyblue;
+    border-radius: 5px;
+}
+
+.html__style {
+    width: 200px;
+}
+
+.css__style {
+    width: 350px;
+}
+
+nav{
+    margin: 0px auto 0px auto;
+    width: 848px;
+    height: 28px;
+    position: relative;
+}
+
+ul{
+    position: absolute;
+    top: 20px;
+    left: 17.5px;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+
+ul li a span {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    background-color: lightskyblue;
+    color: darkblue;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.6s;
+}
+
+a:hover {
+    background-color: darkblue;
+    color: lightskyblue;
+    border: 1px lightskyblue solid;
+    transition: 0.6s;
+    font-size: 18px;
+}
+
+table {
+    border-top: 1px deepskyblue solid;
+    border-bottom: 1px deepskyblue solid;
+    border-radius: 10px;
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+table thead tr th {
+    background-color: lightskyblue;
+    color: darkblue;
+    line-height: 1.5em;
+    border-radius: 6px;
+}
+
+table tr td {
+    text-align: left;
+    border-top: 1px solid deepskyblue;
+    border-bottom: 1px solid deepskyblue;
+    border-radius: 5px;
+    line-height: 1.2em;
+    color: lightblue;
+    padding: 5px;
+}
+
+table tr td span {
+    background-color: skyblue;
+    color: darkblue;
+    font-family: monospace;
+    border-radius: 5px;
+    border: 1px lightskyblue solid;
+    transition: 0.5s;
+}
+
+table tr td span:hover {
+    background-color: darkblue;
+    color: skyblue;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 8px;
+}
+
+footer {
+    margin: 30px auto 15px auto;
+    background-color: skyblue;
+    font-family: monospace;
+    color: darkblue;
+    border-radius: 0 0 10px 10px;
+    width: 1000px;
+    height: auto;
+    font-size: 15px;
+    padding: 5px;
+    transition: 0.6s;
+}
+
+footer:hover{
+    font-size: 18px;
+    transition: 0.6s;
+}
+
+footer p span {
+    text-transform: uppercase;
+}
+
+h4 {
+    padding: 5px;
+}
+
+/*  NAVIGATION STYLE { TOP AND BOTTOM } */
+
+.title__container{
+    width: 1000px;
+    position: relative;
+    margin: 80px auto 40px auto;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.nav__title__html__tb {
+    position: absolute;
+    top: -10px;
+    left: 400px;
+    margin: 0;
+    text-align: center;
+}
+
+.nav__title__css__tb {
+    position: absolute;
+    top: -10px;
+    left: 325px;
+    margin: 0;
+    text-align: center;
+}
+
+.nav__buttons{
+    font-size: 10px;
+}
+
+.nav__buttons:hover{
+    font-size: 12px;
+}
